@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+.container {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 100vw;
+    min-height: 100vh; 
+    background-color: #131212; 
+}
+
+.title {
+    font-size: 3em;
+    color: #00534f;
+    font-weight: bold;
+    margin-bottom: .25em;
+  
+}
+
+.description {
+    font-size: 1.25em;
+    color: #f1f1f1;
+    font-weight: lighter;
+    margin-bottom: 2em;
+}
+
+.stopwatch {
+    color: #f1f1f1;
+    font-size: 3em;
+    margin-bottom: 1.5em;
+    padding: .45em;
+}
+
+.container-botoes {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+
+.btn {
+    height: 3em;
+    width: 9em;
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.025em;
+    text-transform: uppercase;
+}
+
+
+.button-start {
+    background-color: #009620;
+    transition: .25s;
+}
+
+.button-start:hover {
+    background-color: #002206;
+    transition: .25s;
+}
+
+.button-stop {
+    background-color: #c41c06;
+    transition: .25s;
+}
+
+.button-stop:hover {
+    background-color: #640801;
+    transition: .25s;
+}
+
+.button-reset {
+    background-color: #cf6400;
+    transition: .25s;
+}
+
+.button-reset:hover {
+    background-color: #8b1e03;
+    transition: .25s;
+}
